@@ -5,6 +5,7 @@ Mes fichiers de configuration de Vim
 ## Installation
 
 Il faut cloner le repos et déplacer tous les fichiers dans le dossier `~/.vim`. 
+
 **Attention :** Cette opération va effacer votre configuration Vim actuelle. Je vous conseille de faire un backup juste avant.
 
 ## vimrc.bepo
