@@ -2,6 +2,7 @@
 execute pathogen#infect()
 
 let mapleader=' '
+let g:rainbow_active = 1
 
 colorscheme codedark
 syntax enable
