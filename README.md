@@ -17,3 +17,4 @@ Le fichier vimrc.bepo est une configuration spéciale pour les claviers bépo. V
 * Thème de couleurs : [vim-code-dark](https://github.com/tomasiser/vim-code-dark)
 * [Pathogen](https://github.com/tpope/vim-pathogen)
 * [Vim Doge](https://github.com/kkoomen/vim-doge)
+* [Rainbow](https://github.com/luochen1990/rainbow)
