@@ -1,6 +1,6 @@
 # FichiersVim
 
-Mes fichiers de configuration de Vim
+Mes fichiers de configuration de Vim. **Les extensions ne marchent que sur les versions de Vim ultérieur à la 8.**
 
 ## Installation
 
@@ -15,6 +15,13 @@ Le fichier vimrc.bepo est une configuration spéciale pour les claviers bépo. V
 ## Sources
 
 * Thème de couleurs : [vim-code-dark](https://github.com/tomasiser/vim-code-dark)
-* [Pathogen](https://github.com/tpope/vim-pathogen)
-* [Vim Doge](https://github.com/kkoomen/vim-doge)
-* [Rainbow](https://github.com/luochen1990/rainbow)
+* [Vim Doge](https://github.com/kkoomen/vim-doge) : génère des commentaires.
+* [Rainbow](https://github.com/luochen1990/rainbow) : colore les pairs de parenthèses et les accolades.
+* [Auto-pairs](https://github.com/jiangmiao/auto-pairs) : créer la parenthèse/accolade/etc. fermante automatiquement.
+* [Vim Markdown](https://github.com/plasticboy/vim-markdown) : Plugin pour gérer la syntaxe Markdown.
+* [Endwise](https://github.com/tpope/vim-endwise) : Ferme le `if` ou le `while` (pour Bash par ex.). 
+
+**Plugins de l’ancienne version de ce dépôt qui seront remis plus tard :**
+
+* [Emmet](https://github.com/mattn/emmet-vim) : 
+* [Ragtag](https://github.com/tpope/vim-ragtag) : 

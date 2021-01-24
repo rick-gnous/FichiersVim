@@ -1,14 +1,14 @@
-"source ~/.vim/vimrc.bepo
+" source ~/.vim/vimrc.bepo
 
 " load plugins
-execute pathogen#infect()
+" execute pathogen#infect()
 filetype plugin indent on
 
 let mapleader=' '
 let g:rainbow_active = 1
 
 colorscheme codedark
-syntax enable
+syntax on
 
 set tabstop=4
 set softtabstop=4
@@ -31,6 +31,7 @@ set showmatch           " highlight matching [{()}]
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
 
-" parametre pour la taille des espaces
+" parametre pour la taille des espaces selon le langage
 autocmd Filetype java setlocal expandtab tabstop=8 shiftwidth=8 softtabstop=8
 autocmd Filetype javascript setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+autocmd Filetype c setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
