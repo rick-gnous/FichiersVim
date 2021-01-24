@@ -1,0 +1,3 @@
+[submodule "pack/plugins/start/vim-doge"]
+	path = pack/plugins/start/vim-doge
+	url = https://github.com/kkoomen/vim-doge
