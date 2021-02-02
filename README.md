@@ -1,6 +1,8 @@
 # FichiersVim
 
-Mes fichiers de configuration de Vim. **Les extensions ne marchent que sur les versions de Vim ultérieur à la 8.**
+Mes fichiers de configuration de Vim. **Les extensions ne marchent que sur les vLa touche `leader` est définie sur l’espace.ersions de Vim ultérieur à la 8.**
+
+La touche `leader` est définie sur l’espace.
 
 ## Installation
 
