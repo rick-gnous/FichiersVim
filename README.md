@@ -6,9 +6,15 @@ La touche `leader` est définie sur l’espace.
 
 ## Installation
 
-Il faut cloner le repos et déplacer tous les fichiers dans le dossier `~/.vim`. 
+Il faut cloner le repos et déplacer tous les fichiers dans le dossier `~/.vim`.
+
+```bash
+git clone --recurse-submodules https://git.gnous.eu/Rick/FichiersVim.git
+```
 
 **Attention :** Cette opération va effacer votre configuration Vim actuelle. Je vous conseille de faire un backup juste avant.
+
+N'oubliez pas de modifier la variable `g:grammalecte_cli_py` dans le vimrc avec le chemin pour Grammalecte afin de faire marcher le plugin.
 
 ## vimrc.bepo
 
@@ -16,14 +22,20 @@ Le fichier vimrc.bepo est une configuration spéciale pour les claviers bépo. V
 
 ## Sources
 
-* Thème de couleurs : [vim-code-dark](https://github.com/tomasiser/vim-code-dark)
-* [Vim Doge](https://github.com/kkoomen/vim-doge) : génère des commentaires.
-* [Rainbow](https://github.com/luochen1990/rainbow) : colore les pairs de parenthèses et les accolades.
-* [Auto-pairs](https://github.com/jiangmiao/auto-pairs) : créer la parenthèse/accolade/etc. fermante automatiquement.
-* [Vim Markdown](https://github.com/plasticboy/vim-markdown) : Plugin pour gérer la syntaxe Markdown.
-* [Endwise](https://github.com/tpope/vim-endwise) : Ferme le `if` ou le `while` (pour Bash par ex.). 
+### Plugins & thème installés
 
-**Plugins de l’ancienne version de ce dépôt qui seront remis plus tard :**
+* Thème de couleurs : [vim-code-dark](https://github.com/tomasiser/vim-code-dark)
+* [Auto-pairs](https://github.com/jiangmiao/auto-pairs) : Créer la parenthèse/accolade/etc. fermante automatiquement.
+* [Endwise](https://github.com/tpope/vim-endwise) : Ferme le `if` ou le `while` (pour Bash par ex.). 
+* [Grammalecte](https://github.com/dpelle/vim-Grammalecte) : Permet de corriger les fautes de français (n'oubliez pas d'installer [Grammalecte](https://grammalecte.net/) !).
+* [Rainbow](https://github.com/luochen1990/rainbow) : Colore les pairs de parenthèses et les accolades.
+* [Vim Doge](https://github.com/kkoomen/vim-doge) : Génère des commentaires.
+
+### Plugins de l’ancienne version de ce dépôt qui seront remis plus tard
 
 * [Emmet](https://github.com/mattn/emmet-vim) : 
 * [Ragtag](https://github.com/tpope/vim-ragtag) : 
+
+### Plugins supprimés
+
+* [Vim Markdown](https://github.com/plasticboy/vim-markdown) : Plugin pour gérer la syntaxe Markdown.
