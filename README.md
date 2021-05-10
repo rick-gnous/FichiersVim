@@ -14,7 +14,11 @@ git clone --recurse-submodules https://git.gnous.eu/Rick/FichiersVim.git
 
 **Attention :** Cette opération va effacer votre configuration Vim actuelle. Je vous conseille de faire un backup juste avant.
 
+## vimrc
+
 N'oubliez pas de modifier la variable `g:grammalecte_cli_py` dans le vimrc avec le chemin pour Grammalecte afin de faire marcher le plugin.
+
+La touche Leader est mise sur Espace.
 
 ## vimrc.bepo
 
