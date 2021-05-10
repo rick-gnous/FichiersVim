@@ -5,7 +5,11 @@
 filetype plugin indent on
 
 let mapleader=' '
+
+" paramètres de plugins
 let g:rainbow_active = 1
+let g:doge_doc_standard_c='kernel_doc'
+let g:grammalecte_cli_py='$HOME/.local/bin/grammalecte/grammalecte-cli.py'
 
 colorscheme codedark
 syntax on
