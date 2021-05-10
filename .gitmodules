@@ -10,6 +10,3 @@
 [submodule "pack/plugins/start/vim-endwise"]
 	path = pack/plugins/start/vim-endwise
 	url = https://github.com/tpope/vim-endwise
-[submodule "pack/plugins/start/vim-markdown"]
-	path = pack/plugins/start/vim-markdown
-	url = https://github.com/plasticboy/vim-markdown
